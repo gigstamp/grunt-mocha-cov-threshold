@@ -18,8 +18,12 @@ These are the defaults within the task.
 ```javascript
 grunt.initConfig({
   mocha_cov_threshold: {
-    jsonPath: 'test/coverage.json',
-    coverage: 60 // percentage threshold
+    options: {
+      coverage: 60 // percentage threshold
+    },
+    ci: {
+      jsonPath: 'test/coverage.json'      
+    }
   }
 });
 ```

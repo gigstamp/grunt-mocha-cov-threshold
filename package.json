@@ -1,0 +1,22 @@
+{
+  "name": "grunt-mocha-cov-threshold",
+  "version": "0.0.0",
+  "description": "Report and fail build on mocha json-cov thresholds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gigstamp/grunt-mocha-cov-threshold.git"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "author": "davetayls <dave@the-taylors.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gigstamp/grunt-mocha-cov-threshold/issues"
+  },
+  "homepage": "https://github.com/gigstamp/grunt-mocha-cov-threshold"
+}

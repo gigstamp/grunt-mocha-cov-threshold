@@ -12,6 +12,7 @@ module.exports = function(grunt){
       grunt.log.writeln('Code coverage at', parseInt(json.coverage) + '%');
       if (json.coverage < options.coverage){
         grunt.log.error('Code coverage less than limit ', options.coverage);
+        return false;
       }
     } else {
       grunt.log.writeln('No coverage found');

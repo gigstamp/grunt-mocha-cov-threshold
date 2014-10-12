@@ -20,10 +20,9 @@ grunt.initConfig({
   mocha_cov_threshold: {
     options: {
       coverage: 60 // percentage threshold
+      jsonPath: 'test/coverage.json'
     },
-    ci: {
-      jsonPath: 'test/coverage.json'      
-    }
+    ci: {}
   }
 });
 ```

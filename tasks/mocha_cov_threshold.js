@@ -4,7 +4,7 @@ module.exports = function(grunt){
     
     var options = this.options({
       coverage: 60,
-      jsonPath: 'test/coverage.json'
+      jsonPath: 'coverage.json'
     });
 
     var json = grunt.file.readJSON(options.jsonPath);

@@ -17,10 +17,18 @@ These are the defaults within the task.
 
 ```javascript
 grunt.initConfig({
+  mochacov: {
+    json: {
+      options: {
+        // this outputs the json file to coverage.json
+        reporter: 'grunt-mocha-cov-threshold'
+      }
+    }
+  },
   mocha_cov_threshold: {
     options: {
       coverage: 60 // percentage threshold
-      jsonPath: 'test/coverage.json'
+      jsonPath: 'coverage.json'
     },
     ci: {}
   }

@@ -1,6 +1,6 @@
 {
   "name": "grunt-mocha-cov-threshold",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Report and fail build on mocha json-cov thresholds",
   "main": "threshold-cov.js",
   "scripts": {
